@@ -34,9 +34,7 @@ class Queue {
 
   dequeue() {
     const res = this.massiv;
-    console.log(res);
     this.massiv = res.next;
-    console.log(res.value);
     return res.value;
   }
 }
